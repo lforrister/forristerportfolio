@@ -1,0 +1,21 @@
+.about__details {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.about__education-title {
+    margin-bottom: 5px;
+}
+
+.about__category-title {
+    margin-top: 20px;
+}
+
+.about__category-title em {
+    font-size: 13px;
+}
+
+.about__info {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
