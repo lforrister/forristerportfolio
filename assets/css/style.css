@@ -725,9 +725,11 @@ Gallery box
 	text-align: center;
 	margin: 35px 0;
 	object-fit:cover;
-
 }
 
+.gallery-box:hover {
+	cursor: pointer;
+}
 
 .gallery-box-text {
 	font-size: 12px;
