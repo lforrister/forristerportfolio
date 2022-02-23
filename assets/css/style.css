@@ -759,6 +759,22 @@ Gallery box
 	opacity: 1;
 }
 
+.gallery-box-image {
+	aspect-ratio: 1/1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#iso .gallery-box-image {
+	background: #BEE2D9;
+}
+
+#iso .gallery-box-image img {
+	width: 80%;
+}
+
+
 /* ------------------------------------------------------------------
 Counters
 ------------------------------------------------------------------- */
@@ -1480,6 +1496,18 @@ Works item
 	left: 15px;
 	overflow: hidden;
 	object-fit:cover;
+}
+
+.work-item#iso a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #BEE2D9;
+}
+
+.work-item#iso img {
+	width: 80%;
+	height: 80%;
 }
 
 .work-item a:after {
