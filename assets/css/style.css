@@ -1571,21 +1571,23 @@ Works item
 Works item hover
 ------------------------------------------------------------------- */
 
-.work-item:hover a:after {
-	background: rgba(34, 34, 34, 0.75);
-	background: rgba(0, 0, 0, 0.8);
-}
+@media screen and (min-width: 768px) {
+	.work-item:hover a:after {
+		background: rgba(34, 34, 34, 0.75);
+		background: rgba(0, 0, 0, 0.8);
+	}
 
-.works-hover-w .work-item:hover a:after {
-	background: rgba(255, 255, 255, 0.8);
-}
+	.works-hover-w .work-item:hover a:after {
+		background: rgba(255, 255, 255, 0.8);
+	}
 
-.work-item:hover .work-caption {
-	opacity: 1;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	   -moz-transform: translateY(-50%);
-	        transform: translateY(-50%);
+	.work-item:hover .work-caption {
+		opacity: 1;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+				transform: translateY(-50%);
+	}
 }
 
 /* ------------------------------------------------------------------
