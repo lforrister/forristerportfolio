@@ -449,10 +449,37 @@
 			singleItem:      !0,
 			autoHeight:      !0,
 			navigation:      !0,
-			slideSpeed:      5000,
+			slideSpeed:      3000,
 			paginationSpeed: 1000,
 			goToFirstSpeed:  1000,
 			autoPlay:        3000,
+			transitionStyle : "fade",
+			navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+		});
+
+		
+		$('.slider-images-slow').owlCarousel({
+			stopOnHover:     !0,
+			singleItem:      !0,
+			autoHeight:      !0,
+			navigation:      !0,
+			slideSpeed:      9000,
+			paginationSpeed: 1000,
+			goToFirstSpeed:  1000,
+			autoPlay:        4000,
+			transitionStyle : "fade",
+			navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+		});
+
+		$('.slider-images-med').owlCarousel({
+			stopOnHover:     !0,
+			singleItem:      !0,
+			autoHeight:      !0,
+			navigation:      !0,
+			slideSpeed:      5000,
+			paginationSpeed: 1000,
+			goToFirstSpeed:  1000,
+			autoPlay:        4000,
 			transitionStyle : "fade",
 			navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
 		});

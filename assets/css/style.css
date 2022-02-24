@@ -1505,6 +1505,18 @@ Works item
 	background: #BEE2D9;
 }
 
+.work-item.iso img {
+	width: 80%;
+	height: 80%;
+}
+
+.work-item.iso a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+}
+
 .work-item#iso img {
 	width: 80%;
 	height: 80%;
